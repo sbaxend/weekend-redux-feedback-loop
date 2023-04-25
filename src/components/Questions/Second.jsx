@@ -18,7 +18,7 @@ function Second() {
   const nextPage = (event) => {
     event.preventDefault();
     if (personUnderstanding > 0) {
-        history.push('/second-question');
+        history.push('/third-question');
     } else {
         alert('Please Proivide A Rating Greater Than 0');
     }

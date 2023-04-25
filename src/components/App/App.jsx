@@ -6,6 +6,8 @@ import First from '../Questions/First';
 import Second from '../Questions/Second';
 import Third from '../Questions/Third';
 import Fourth from '../Questions/Fourth';
+import Review from '../Review/Review';
+import Completion from '../Completion/Completion';
 function App() {
 
   return (
@@ -22,11 +24,17 @@ function App() {
     <Route exact path = '/second-question'>
       <Second />
     </Route>
-    <Route exact path = '/third-question>'>
+    <Route exact path = '/third-question'>
       <Third />
     </Route>
     <Route exact path = '/fourth-question'>
       <Fourth />
+    </Route>
+    <Route exact path = '/review'>
+      <Review />
+    </Route>
+    <Route exact path ='/completed'>
+      <Completion />
     </Route>
    </Router>
   );
